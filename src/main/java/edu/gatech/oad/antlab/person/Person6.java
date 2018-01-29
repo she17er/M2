@@ -8,7 +8,7 @@ package edu.gatech.oad.antlab.person;
  *  @author Bob
  *  @version 1.1
  */
-public class Person1 {
+public class Person6 {
   /** Holds the persons real name */
   private String name;
   	/**
@@ -16,7 +16,7 @@ public class Person1 {
 	 * name
 	 * @param pname the person's real name
 	 */
-  public Person1(String pname) {
+  public Person6(String pname) {
     name = pname;
   }
   	/**
@@ -30,15 +30,7 @@ public class Person1 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-
-        String modified = "";
-        for (int i = 2; i < input.length(); i++) {
-            modified += input.charAt(i);
-        }
-        for (int i = 0; i < 2; i++) {
-            modified += input.charAt(i);
-        }
-        return modified;
+	  return input.substring(2) + input.substring(0,2);
 	}
 
 	/**
