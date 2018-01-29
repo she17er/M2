@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
     <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
@@ -25,6 +28,10 @@
       </value>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+=======
 =======
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
@@ -52,6 +59,7 @@
         </list>
       </value>
     </option>
+>>>>>>> master
   </component>
 >>>>>>> 75ca3d04b4271bb31ba5c2e95b802af7564313b6
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
