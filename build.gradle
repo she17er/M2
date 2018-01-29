@@ -1,0 +1,14 @@
+import edu.gatech.oad.antlab.pkg1.AntLabMain
+
+apply plugin: 'java'
+
+dependencies {
+    compile file: '/lib/resources.jar'
+}
+
+jar {
+    manifest {
+        attributes 'Class-Path': '/lib/resources.jar',
+                'Main-Class': edu.gatech.oad.antlab.pkg1.AntLabMain
+    }
+}
