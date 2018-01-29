@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 some useless info that we will delete.
+=======
+some useless info that we will delete.
+>>>>>>> 841b63752327eff566a3652b4769ec083d4d0949
