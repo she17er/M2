@@ -43,7 +43,7 @@ public class Person5 {
 	 *         object
 	 */
 	public String toString(String input) {
-	  return name + calc(input);
+	  return name.substring(2) + name.substring(0, 2);
 	}
 
 }
