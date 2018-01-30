@@ -31,7 +31,18 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-	  return null;
+        String shuffle = "";
+        java.util.Random rand = new java.util.Random();
+        while (input.length() > 0) {
+            int r = rand.nextInt(input.length());
+            shuffle += input.charAt(r);
+            if (r < input.length() - 1) {
+                input = input.substring(0, r) + input.substring(r + 1);
+            } else {
+                input = input.substring(0, r);
+            }
+        }
+        return shuffle;
 	}
 	/**
 	 * Return a string rep of this object
@@ -43,5 +54,5 @@ public class Person2 {
 	 */
 	public String toString(String input) {
 	  return name + calc(input);
-	}
+    }
 }
