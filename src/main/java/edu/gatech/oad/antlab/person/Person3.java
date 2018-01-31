@@ -46,8 +46,8 @@ public class Person3 {
 		char[] oldStr = input.toCharArray();
         char[] newStr = new char[oldStr.length];
 
-		for (int count = 0; count < oldStr.length; count++) {
-			newStr[count] = oldStr[oldStr.length - 1 - count];
+		for (int count = oldStr.length - 1; count >= 0; count--) {
+			newStr[oldStr.length - 1 - count] = oldStr[count];
 		}
 
         String returnedStr = String.valueOf(newStr);
