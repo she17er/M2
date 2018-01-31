@@ -46,14 +46,11 @@ public class Person3 {
 		Char[] oldStr = input.toCharArray();
 		Char[] newStr = new Char[oldStr.length()];
 
-		for (int count = 0; count < oldStr.length() - 2; count++) {
-			newStr[count] = oldStr[count + 2];
+		for (int count = oldStr.length - 1; count >= 0 ; count--) {
+			newStr[oldStr.length - 1 - count] = oldStr[count];
 		}
-		newStr[oldStr.length() - 3] = oldStr[0];
-		newStr[oldStr.length() - 2] = old[1];
 
 		returnedStr = String.valueOf(newStr);
 		return returnedStr;
-	  return null;
 	}
 }
